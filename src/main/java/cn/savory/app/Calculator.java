@@ -25,7 +25,7 @@ public class Calculator {
     private final static BigDecimal stampTaxRate = BigDecimal.valueOf(0.001);
 
     /**
-     * 手续费,仅买入时计算
+     * 手续费
      * 万分之2.5，最低收取5元。四舍五入到小数点后面第二位
      *
      * @param buyMoney 每股的价格
@@ -44,7 +44,7 @@ public class Calculator {
     }
 
     /**
-     * 过户费,仅买入时计算
+     * 过户费
      * 千分之0.2，向上取整到小数点后面2位
      *
      * @param buyMoney 每股的价格
